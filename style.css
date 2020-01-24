@@ -7,6 +7,14 @@ main{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,50vh);
 }
+
+/*texte de présentation*/
+h1{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+    color: white;
+}
 /* couleur de fond */
 #itemcolor1{
     background-color: rgb(285, 186, 26);
@@ -84,8 +92,9 @@ a #itemcolor6 img {
     transition-duration: 2s;
 }
 
-.item h1{
+.item h2{
     color: white;
+    font-size: 30px;
 }
 
 .item p{
@@ -94,16 +103,16 @@ a #itemcolor6 img {
     text-decoration: none;
 }
 
-/*alignement en bas de la div */
+/*alignement en bas de la div*/
 .deco{
     position: absolute;
-    bottom: 15%;
+    bottom: 18%;
     margin-left: 5%;
 }
 
 .deco2 {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     margin-left: 5%;
 }
 /* je trace le trait au dessus du p */
@@ -114,21 +123,26 @@ hr{
     bottom: 15%;
     left: 5%;
 }
-hr::before {
-    content: "";
-    width:10px;
-    height:10px;
-    color: white;
-   
-}
 
-/* hover de la couleur de fond et aggrandissement image */
+/* hover de la couleur de fond et aggrandissement image plus couleur hr */
 #itemcolor2:hover{
     background-color: black;
 }
 
 #itemcolor2:hover img{
     transform: scale(1.3);
+}
+
+#itemcolor2:hover hr{
+    color: rgb(285, 186, 26);
+}
+/* couleur du texte des cellules lors d'un hover */
+#itemcolor2:hover .item .deco{
+    color: rgb(285, 186, 26);
+}
+
+#itemcolor2:hover .item .deco2{
+    color: rgb(285, 186, 26);
 }
 
 #itemcolor3:hover{
@@ -139,12 +153,36 @@ hr::before {
     transform: scale(1.3);
 }
 
+#itemcolor3:hover hr{
+    color: rgb(285, 186, 26);
+}
+/* couleur du texte des cellules lors d'un hover */
+#itemcolor3:hover .item .deco{
+    color: rgb(285, 186, 26);
+}
+
+#itemcolor3:hover .item .deco2{
+    color: rgb(285, 186, 26);
+}
+
 #itemcolor4:hover{
     background-color: black;
 }
 
 #itemcolor4:hover img{
     transform: scale(1.3);
+}
+
+#itemcolor4:hover hr{
+    color: rgb(285, 186, 26);
+}
+/* couleur du texte des cellules lors d'un hover */
+#itemcolor4:hover .item .deco{
+    color: rgb(285, 186, 26);
+}
+
+#itemcolor4:hover .item .deco2{
+    color: rgb(285, 186, 26);
 }
 
 #itemcolor5:hover{
@@ -155,11 +193,36 @@ hr::before {
     transform: scale(1.3);
 }
 
+#itemcolor5:hover hr{
+    color: rgb(285, 186, 26);
+}
+/* couleur du texte des cellules lors d'un hover */
+#itemcolor5:hover .item .deco{
+    color: rgb(285, 186, 26);
+}
+
+#itemcolor5:hover .item .deco2{
+    color: rgb(285, 186, 26);
+}
+
 #itemcolor6:hover{
     background-color: black;
 }
 
 #itemcolor6:hover img{
     transform: scale(1.3);
+}
+
+
+#itemcolor6:hover hr{
+    color: rgb(285, 186, 26);
+}
+/* couleur du texte des cellules lors d'un hover */
+#itemcolor6:hover .item .deco{
+    color: rgb(285, 186, 26);
+}
+
+#itemcolor6:hover .item .deco2{
+    color: rgb(285, 186, 26);
 }
 
