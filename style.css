@@ -53,42 +53,42 @@ a {
 
 /* position et taille des images*/
 a #itemcolor2 img {
-    width: 15%;
+    width: 50%;
     position: absolute;
     top: 15%;
-    left: 42%;
+    left: 25%;
     transition-duration: 2s;
 }
 
 a #itemcolor3 img {
-    width: 15%;
+    width: 50%;
     position: absolute;
     top: 10%;
-    right: 8%;
+    right: 25%;
     transition-duration: 2s;
 }
 
 a #itemcolor4 img {
-    width: 15%;
+    width: 50%;
     position: absolute;
-    top: 60%;
-    left: 8%;
+    top: 10%;
+    left: 25%;
     transition-duration: 2s;
 }
 
 a #itemcolor5 img {
-    width: 15%;
+    width: 50%;
     position: absolute;
-    top: 62%;
-    left: 42%;
+    top: 10%;
+    left: 25%;
     transition-duration: 2s;
 }
 
 a #itemcolor6 img {
-    width: 15%;
+    width: 50%;
     position: absolute;
-    top: 62%;
-    right: 8%;
+    top: 10%;
+    right: 25%;
     transition-duration: 2s;
 }
 
