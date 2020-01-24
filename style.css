@@ -107,12 +107,19 @@ a #itemcolor6 img {
     margin-left: 5%;
 }
 /* je trace le trait au dessus du p */
-.deco2::before {
+hr{
+    width: 80%;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+hr::before {
     content: "";
-    display: block;
-    border-bottom: 2px solid white;
-    margin-bottom: 3%;
-    width: 110%;
+    width:10px;
+    height:10px;
+    color: white;
+   
 }
 
 /* hover de la couleur de fond et aggrandissement image */
