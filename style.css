@@ -1,0 +1,112 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,50vh);
+}
+/* couleur de fond */
+#itemcolor1{
+    background-color: rgb(285, 186, 26);
+}
+
+#itemcolor2{
+    background-color: rgb(255, 123, 15);
+    background-image: url(/Assets/Images/grenade-in-tact.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#itemcolor3{
+    background-color: rgb(255, 68, 15);
+    background-image: url(/Assets/Images/prism-upright.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#itemcolor4{
+    background-color: rgb(77, 189, 63);
+    background-image: url(/Assets/Images/globe-no-pins.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#itemcolor5{
+    background-color: rgb(0, 146, 245);
+    background-image: url(/Assets/Images/energy-drink.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#itemcolor6{
+    background-color: rgb(125, 66, 151);
+    background-image: url(/Assets/Images/curled-paper.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*réalisation de la zone cliquable */
+.item{
+    height: 50vh;
+    position: relative;
+    border: solid 2px white;
+}
+
+/* design du texte */
+a {
+    text-decoration: none;
+}
+.item h1{
+    color: white;
+}
+
+.item p{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*alignement en bas de la div */
+.deco{
+    position: absolute;
+    bottom: 15%;
+    margin-left: 5%;
+}
+
+.deco2 {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 5%;
+}
+/* je trace le trait au dessus du p */
+.deco2::before {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    margin-bottom: 3%;
+    width: 500px;
+}
+
+/* hover de la couleur de fond */
+#itemcolor2:hover{
+    background-color: black;
+}
+
+#itemcolor3:hover{
+    background-color: black;
+}
+
+#itemcolor4:hover{
+    background-color: black;
+}
+
+#itemcolor5:hover{
+    background-color: black;
+}
+
+#itemcolor6:hover{
+    background-color: black;
+}
+
